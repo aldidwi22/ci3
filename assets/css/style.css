@@ -1,0 +1,40 @@
+
+  .table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e2dfdf;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: left;
+} 
+.table1 tr th{
+    background: #35A9DB;
+    color:white;
+    font-weight: normal;
+    padding: 15px;
+    
+}
+.table1 tr:hover  {
+  background-color: #eceaea;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
+  .tomboldlt{
+    border: 2px solid #db5d59;
+    background:  #db5d59  url('images/dle.png')no-repeat 10px 13px;
+    height: 70px;
+    padding-left: 30px;
+    border-radius: 6px;
+    padding-top: 20px;
+  }
+  .tomboldlt:hover {
+    background-color: rgb(238, 10, 10); /* Green */
+    color: white;
+  }
+  .badge {
+    margin-left: 1px;
+    padding: 8px;
+  }
